@@ -12,10 +12,17 @@ import Search from './component/Search.jsx';
 import DetailPage from './component/DetailPage.jsx';
 import { Toaster } from 'react-hot-toast';
 
+// if(import.meta.env.PROD){
+//    console.log = () => {}
+//   console.info = () => {}
+//   console.debug = () => {}
+// }
+
 createRoot(document.getElementById('root')).render(
 
     <>
       <Toaster position='top-center' toastOptions={{duration:3000}}/>
+
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />

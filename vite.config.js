@@ -10,7 +10,7 @@ export default defineConfig({
   build:{
     minify:"esbuild",
     esbuild:{
-      drope:["console", "debugger"]
+      drop:["console", "debugger"]
     }
   }
 })
