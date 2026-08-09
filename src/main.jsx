@@ -12,11 +12,11 @@ import Search from './component/Search.jsx';
 import DetailPage from './component/DetailPage.jsx';
 import { Toaster } from 'react-hot-toast';
 
-// if(import.meta.env.PROD){
-//    console.log = () => {}
-//   console.info = () => {}
-//   console.debug = () => {}
-// }
+if(import.meta.env.PROD){
+   console.log = () => {}
+  console.info = () => {}
+  console.debug = () => {}
+}
 
 createRoot(document.getElementById('root')).render(
 
